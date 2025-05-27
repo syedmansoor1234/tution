@@ -11,13 +11,6 @@
             padding: 0;
         }
         
-        body,
-        html {
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-        }
-        
         body {
             background-color: rgb(209, 187, 209);
         }
@@ -88,13 +81,17 @@
         
         @media(max-width:768px) {
             .container {
-                display: flex;
-                height: 200px;
-                flex-direction: column;
-                padding: 10px 0;
+                width: 100%;
+                height: 150px;
             }
-            
-            
+            .head {
+                position: relative;
+                bottom: 60px;
+            }
+            .l1 {
+                position: relative;
+                top: 60px;
+            }
             .foot {
                 width: 100%;
                 height: 80px;
@@ -119,7 +116,7 @@
                 <a href="secondpuc.html" target="_blank" class="l1">Second Puc</a>
             </li>
             <li>
-                <h1 class="head">TUTION</h1>
+                <h1 class="head">KnM TUTORAILS</h1>
             </li>
         </ul>
     </div>
@@ -136,7 +133,7 @@
     <a href="maths.html" class="sslc" target="_blank">Maths</a> <br><br>
     <div class="foot">
         <footer>
-            <p class="pfoot">Copyright &copy; tution 2025 this website is made with love</p>
+            <p class="pfoot">Copyright &copy; KnM tutorials 2025 this website is made with love</p>
         </footer>
     </div>
 </body>
